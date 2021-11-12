@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.Earthquake_01">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal"
+            android:text="6. Не удивляйтесь, если вы почувствуете новые толчки. После первого сильного толчка может наступить временное затишье, а затем новый толчок. Это явление - попросту действие разных сейсмических волн одного и того же землетрясения. Могут произойти и повторные толчки - афтершоки, т.е. отдельные землетрясения, возникающие вслед за главным толчком. Они могут происходить в течение нескольких минут, нескольких часов или даже нескольких дней. Иногда афтершоки могут вызвать повреждения или обрушение построек, уже сильно поврежденных главным толчком."
+            android:textAlignment="viewStart"
+            android:textColor="#585858"
+            android:textSize="40dp"
+            tools:ignore="RtlCompat" />
+    </FrameLayout>
+</ScrollView>

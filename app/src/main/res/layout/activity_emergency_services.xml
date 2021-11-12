@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".EmergencyServices">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal"
+            android:text="Важные номера!"
+            android:textAlignment="center"
+            android:textColor="#CC2020"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/MCS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_margin="15dp"
+            android:text="служба спасения МЧС Украины - 101"
+            android:textColor="#585858"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/police"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/MCS"
+            android:layout_margin="15dp"
+            android:text="полиция - 102"
+            android:textColor="#585858"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/ambulance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/police"
+            android:layout_margin="15dp"
+            android:text="скорая помощь - 103"
+            android:textColor="#585858"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/gas_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ambulance"
+            android:layout_margin="15dp"
+            android:text="аварийная служба газа - 104"
+            android:textColor="#585858"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_below="@id/gas_service"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#CC2020"
+            android:text="Далее"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+</ScrollView>

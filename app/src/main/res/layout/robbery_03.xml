@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Earthquake_01"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal"
+            android:text="4. Не пытайтесь самостоятельно задержать преступников! \n\n5. Ваша задача до приезда полиции — запомнить как можно больше их примет. Лица, рост, телосложение, одежда, сумки, марка и номер автомобиля — все эти приметы помогут в дальнейшем расследовании. Если есть возможность безопасно для себя сфотографировать преступников или авто, обязательно сделайте фото и передайте полиции."
+            android:textAlignment="viewStart"
+            android:textColor="#585858"
+            android:textSize="40dp"
+            tools:ignore="RtlCompat" />
+    </FrameLayout>
+</ScrollView>

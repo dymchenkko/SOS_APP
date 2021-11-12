@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.Earthquake_01">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal"
+            android:text="1.Не прикасайтесь к участку, покрытому кожей / газом! \n\n2. Не тереть глаза! Часто моргайте и смотрите в сторону встречного ветра! \n\n 3. Вымойте глаза и кожу."
+            android:textAlignment="viewStart"
+            android:textColor="#585858"
+            android:textSize="40dp"
+            tools:ignore="RtlCompat" />
+    </FrameLayout>
+</ScrollView>
